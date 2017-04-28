@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "xp-crypt",
   "description": "A set of encryption functions",
   "version": "1.0.1",
