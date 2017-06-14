@@ -1,7 +1,7 @@
 {
   "name": "xp-crypt",
   "description": "A set of encryption functions",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "license": "BSD-3-Clause",
   "homepage": "https://expandjs.com",
   "author": "ExpandJS <dev@expandjs.com> (https://expandjs.com)",
@@ -18,12 +18,12 @@
   },
 
   "dependencies": {
-    "bcrypt": "^1.0.0",
+    "bcryptjs": "^2.4.0",
     "expandjs": "^1.0.0",
     "xxhashjs": "^0.2.0"
   },
 
   "scripts": {
-    "build:centOS": "env CC=/opt/rh/devtoolset-2/root/usr/bin/gcc CXX=/opt/rh/devtoolset-2/root/usr/bin/g++ npm install"
+    "build": "webpack"
   }
 }

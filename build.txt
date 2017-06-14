@@ -1,3 +1,0 @@
-CentOS:
-
-- node-gyp rebuild
